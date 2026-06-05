@@ -1,0 +1,30 @@
+zuban
+pip install zuban
+which zuban -- descobrir o path
+{
+  "servers": {
+    "python": {
+      "command": ["PATH", "server"],
+      "url": "https://github.com/zubanls/zuban",
+      "highlightingModeRegex": "^Python$"
+    }
+  }
+}
+
+Docker
+npm install -g dockerfile-language-server-nodejs
+which docker-langserver -- descobrir o path
+    "docker": {
+      "command": ["PATH", "--stdio"],
+      "url": "https://github.com/rcjsuen/dockerfile-language-server-nodejs",
+      "highlightingModeRegex": "^Dockerfile$"
+    },
+
+YML
+npm install -g yaml-language-server
+which yaml-language-server -- descobrir o path
+    "yaml": {
+      "command": ["/home/seu_usuario/.nvm/versions/node/v26.2.0/bin/yaml-language-server", "--stdio"],
+      "url": "https://github.com/redhat-developer/yaml-language-server",
+      "highlightingModeRegex": "^YAML$"
+    }

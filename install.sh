@@ -14,6 +14,9 @@ git clone https://github.com/Rodrigo8064/neovim-config.git ~/.config/nvim
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install -y lazygit
 
+#lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
 #telescope
 sudo dnf install -y ripgrep
 

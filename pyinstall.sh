@@ -18,5 +18,8 @@ poetry config virtualenvs.in-project true
 # zuban
 pip install zuban
 
+#neovim
+pip install neovim
+
 # Atualizar
 sudo dnf update -y && sudo dnf upgrade -y

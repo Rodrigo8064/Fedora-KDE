@@ -39,7 +39,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # Reinicie o terminal e siga o assistente de configuração
 
 # Utilitarios extras
-sudo dnf install -y htop neofetch tree unzip p7zip
+sudo dnf install -y btop neofetch tree unzip p7zip fd-find
+npm install -g neovim
 
 # Finalize
 sudo dnf update -y && reboot
